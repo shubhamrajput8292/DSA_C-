@@ -1,0 +1,15 @@
+#include<iostream.h>
+using namespace std;
+int main()
+{
+    int num;
+    cout<<"enter the number";
+    cin>>num;
+    if(num%1==0)
+    {coiut<<"postive number";
+    }
+    else
+    {
+        cout<<"negative number";
+    }
+    return 0;
