@@ -1,10 +1,16 @@
 #include<iostream>
 using namespace std;
 int main()
-{int i=0;
-for(i=0;i<=20;i++)
-{cout<<i<<endl;
-}
-return 0;
-}
+{
+    int num;
+    cin>>num;
+    if(num%2==0)
+    {cout<<num<<"is an even number";
+    }
+    else
+    {
+        cout<<num<<"is an odd number";
+    }
+    return 0;
 
+}
