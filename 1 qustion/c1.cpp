@@ -12,5 +12,4 @@ int main()
         cout<<num<<"is an odd number";
     }
     return 0;
-
 }
