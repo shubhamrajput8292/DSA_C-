@@ -1,18 +1,18 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 int main()
 {
     int n;
     cin>>n;
     cout<<"enter the number";
-    if (n>=0)
+    cout<<endl;
+    if(n%5==0)
     {
-        cout<<n;
+        cout<<"yes";
     }
     else
     {
-        cout<<-n;
+        cout<<"no";
 
     }
- 
 }
