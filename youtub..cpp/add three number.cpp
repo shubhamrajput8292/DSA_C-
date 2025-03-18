@@ -16,8 +16,9 @@ int main()
  
     cout<<"enter the 3 number";
     cin>>z;
+    int v;
+ 
+    cout<<"enter the 4 number";
+    cin>>v;
     
-    
-    cout<< x+y+z;
-    return 0;
 }
